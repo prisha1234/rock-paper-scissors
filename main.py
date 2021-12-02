@@ -20,4 +20,23 @@ while player == False:
         print("computer chooses ",computer)
       time.sleep(2)
       print ("you win yayyy :D !!!!!!!! ", player ,"breaks",computer)
-  
+  elif player == "paper":
+    if computer == "rock":
+      print("computer chooses ",computer)
+      time.sleep(2)
+      print("you win yayyy :D !!!!!!!!")
+      else:
+        print("computer chooses ",computer)
+        time.sleep(2)
+        print("computer wins yayyy :D !!!!!!!!")
+  elif player == "scissors":
+   if computer == "rock":
+        print("computer chooses ",computer)
+        time.sleep(2)
+        print("computer win yayyy :D !!!!!!!!")
+      else:
+        print("computer chooses ",computer)
+        time.sleep(2)
+        print("you win yayyy :D !!!!!!!!")
+
+    
