@@ -17,7 +17,7 @@ while player == False:
       time.sleep(2)
       print ("you lose :( ", computer,"covers",player)
     else:
-        print("computer chooses ",computer)
+      print("computer chooses ",computer)
       time.sleep(2)
       print ("you win yayyy :D !!!!!!!! ", player ,"breaks",computer)
   elif player == "paper":
@@ -25,18 +25,24 @@ while player == False:
       print("computer chooses ",computer)
       time.sleep(2)
       print("you win yayyy :D !!!!!!!!")
-      else:
-        print("computer chooses ",computer)
-        time.sleep(2)
-        print("computer wins yayyy :D !!!!!!!!")
+    else:
+      print("computer chooses ",computer)
+      time.sleep(2)
+      print("computer wins yayyy :D !!!!!!!!")
   elif player == "scissors":
-   if computer == "rock":
-        print("computer chooses ",computer)
-        time.sleep(2)
-        print("computer win yayyy :D !!!!!!!!")
-      else:
-        print("computer chooses ",computer)
-        time.sleep(2)
-        print("you win yayyy :D !!!!!!!!")
+    if computer == "rock":
+      print("computer chooses ",computer)
+      time.sleep(2)
+      print("computer win yayyy :D !!!!!!!!")
+    else:
+      print("computer chooses ",computer)
+      time.sleep(2)
+      print("you win yayyy :D !!!!!!!!")
+  else:
+    print("thats not a valid play check ur spellings silly")
+  #coding#hacker#classes#player was set to true,but we want it to be false so the loop =continues
+    player = False 
+ computer = list[randint(0,2)]
 
-    
+
+
